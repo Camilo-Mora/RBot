@@ -158,6 +158,21 @@ You will be asked for a new password, and to retype it. That password will becom
 
 <img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Putty2.png" width=100% >
 
+     If you get an error here that you are missing some module type:
+
+     sudo apt install python3-pip
+
+     in the Putty-console, then hit enter.
+     
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Image7.png" width=100% >
+
+then type:
+
+    pip3 install -r requirements.txt 
+    
+ then Enter.
+ 
+
 3. Run the demo R code provided in this repository. This demo will send messages to Discord evry 50 secs. and if all is working your recipient email account should get a message saying all is working.
 
 4. Now that we confirm Rbot is working, we need to reset it. Go back to Putty and type “ctrl” + “z”,  this should stop the bot. To run the bot for good type “nohup python3 main.py &” and then hit Enter. Your screen should loook like the one below. and That is. you now have a live Bot checking messages that you send from R to the Discord Channel.
