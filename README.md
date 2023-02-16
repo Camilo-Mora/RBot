@@ -170,7 +170,7 @@ then type:
 
     pip3 install -r requirements.txt 
     
- then Enter.
+ then Enter. Run line 1, above again.
  
 
 3. Run the demo R code provided in this repository. This demo will send messages to Discord evry 50 secs. and if all is working your recipient email account should get a message saying all is working.
