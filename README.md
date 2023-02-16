@@ -27,19 +27,23 @@ The bot is hosted is the cloud, so the monitoring system is always on. The Bot c
 
 ## Download files
 Dowonload and unzip the files from this repository in your local computer.
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Files2.png" width=50% >
+
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Files2.png" width=100% >
 
 ## Create Discord server
 We assume you have already created an account in Discord and have a sever, if not sign up for one [HERE](https://discord.com/).
 
 1. To create the server, click on the + bottom, see image below.
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Server.png" width=50% >
+
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Server.png" width=100% >
 
 2. click on "Create my own"
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Server2.png" width=50% >
+
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Server2.png" width=100% >
 
 3. click on "For me and friends"
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Server3.png" width=50% >
+
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Server3.png" width=100% >
 
 4. click on "Create"
 
@@ -50,25 +54,31 @@ We assume you have already created an account in Discord and have a sever, if no
 
 
 2. Click on the "New Application" button to create a new bot.
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/DiscordCreateNewApplication1.png" width=50% >
+
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/DiscordCreateNewApplication1.png" width=100% >
 
 3. Give your bot a name and click on the "Create" button.
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/DiscordCreateNewApplication2.png" width=50% >
+
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/DiscordCreateNewApplication2.png" width=100% >
 
 4. It'll now take you to a page in which you can enter details such as your app's description, add tags, an app icon, and more. Once done, hit the Save Changes button to proceed
 
 5. Click on the "Bot" section on the left sidebar and then click on "Add Bot."
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/DiscordCreateNewApplication3.png" width=50% >
+
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/DiscordCreateNewApplication3.png" width=100% >
 
 6. You'll now see a security token for your bot on the next page. If the token hasn't been generated, simply tap on the Reset button to create a new token. Copy this token ID as we'll need it
 
 7. Navigate to intents section and enable all of them
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/DiscordCreateNewApplication4.png" width=50% >
+
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/DiscordCreateNewApplication4.png" width=100% >
 
 8. Now, look for the OAuth2 option in the menu on the left sidebar and click on it to find your CLIENT ID. It's a long string of numbers.
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/DiscordCreateNewApplication5.png" width=50% >
 
-9. Paste to this URL below -- replace the word CLIENTID with the actual CLIENT ID that you just copied -https://discordapp.com/oauth2/authorize?&client_id=CLIENTID&scope=bot&permissions=8
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/DiscordCreateNewApplication5.png" width=100% >
+
+9. Paste to this URL below -- replace the word CLIENTID with the actual CLIENT ID that you just copied
+https://discordapp.com/oauth2/authorize?&client_id=CLIENTID&scope=bot&permissions=8
 
 10. Simply paste this particular URL into your web browser and hit enter. It'll open a page in which you can tell Discord where to send your bot. Select the server to which you want to add your new bot from the dropdown menu
 
@@ -80,24 +90,26 @@ All you will need from this sever are the credential to join remotely with WinSC
 
 Go the Digital Ocean, and click on "Droplets", then select the droplet you just created following the video above. You should then see a window like the one below. The vertical arrow shows the IP where the files will be loaded (hover the mouse), and click copy. This will become the IP, which you will need later. Click on reset password (if you lost the password you got when you created the droplet).
 
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/DropleetInfo.png" width=50% >
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/DropleetInfo.png" width=100% >
 
 ## Edit the ".Env" file
 The .Env file you downloaded from this repository contains all the credetials the bot needs to operate. Lets you how you find them.
 
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/ENV.png" width=50% >
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/ENV.png" width=100% >
 
 ### BOT_TOKEN
 You should have this token when you created the Bot. If not, you may need to create a new one. This is how. Go to the developer portal of [Discord] (https://discord.com/developers/applications). and click on the bot you created earlier, "TD" in my case.
 
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Bot1.png" width=50% >
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Bot1.png" width=100% >
 
 Go Bot, then click on "Reset token"., and copy it. That becomes the token you paste in the .ENV file
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Bot2.png" width=50% >
+
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Bot2.png" width=100% >
 
 ### BOT_CHANNEL_ID
 Go to your Discord channel, right click on the #name, and scroll down to Copy ID. That is your channel ID
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Bot3.png" width=50% >
+
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Bot3.png" width=100% >
 
 
 ### EMAIL_SENDER
@@ -116,34 +128,38 @@ Now that the .Env file is configurated save it in the same folder with all other
 ## Transfer files to virtual server
 Open WinSCP, in the HostName enter the IP, and in password, the one you got from Digital Ocean when creating the Droplet, then click Login. If you "Reset Root Password",  when you created the virtual server, you need to reset your password using Putty, as shown below under section "Reset password of droplet", this happens because when you resetted the password in the droplet that was a temporary password. You will need to get a permanent one, as shown below.
 
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/TransferToWinSCP.png" width=50% >
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/TransferToWinSCP.png" width=100% >
 
 On the left hand side, browse to the folder where you unzipped the files from this repository. On the right, create a folder Name it "Rbot". Simply select all files from the left, and drag them in the folder to the right.
 
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Files.png" width=50% >
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Files.png" width=100% >
 
 ### Resseting password of droplet
 Open Putty, enter the IP (Provided in the droplet secction), into the “Host Name” field and click on “Open" 
 
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Putty0.png" width=50% >
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Putty0.png" width=100% >
 
 A black screen like the one below should appear. In loging as: type "root", hit Enter.
 
 In your email acount you should have recieved a temporary password from Digital Ocean, copy that password, then go to Putty, right  click on the green square only ONCE and then hit Enter…. Do the same in the next screen.
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/ChangePass2.png" width=50% >
+
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/ChangePass2.png" width=100% >
 
 You will be asked for a new password, and to retype it. That password will become the one you need to login in WinSCP above.
 
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/ChangePass3.png" width=50% >
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/ChangePass3.png" width=100% >
 
 ## Now lets run Rbot
 1. Open Putty, and type "cd Rbot", then hit enter (Rbot, is the name of the folder we created in Droplet.
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Putty.png" width=50% >
+
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Putty.png" width=100% >
 
 2. Type “python3 main.py” and then hit enter. If all works. You should get a message saying so.
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Putty2.png" width=50% >
+
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Putty2.png" width=100% >
 
 3. Run the demo R code provided in this repository. This demo will send messages to Discord evry 50 secs. and if all is working your recipient email account should get a message saying all is working.
 
 4. Now that we confirm Rbot is working, we need to reset it. Go back to Putty and type “ctrl” + “z”,  this should stop the bot. To run the bot for good type “nohup python3 main.py &” and then hit Enter. Your screen should loook like the one below. and That is. you now have a live Bot checking messages that you send from R to the Discord Channel.
-<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Putty3.png" width=50% >
+
+<img src="https://github.com/Camilo-Mora/RBot/blob/main/Images/Putty3.png" width=100% >
